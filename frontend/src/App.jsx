@@ -4,7 +4,7 @@ import './App.css'
 import Homepage from "./pages/Homepage"
 import Signup from "./pages/Signup"
 import Login from "./pages/Login"
-import { Routes } from 'react-router-dom';
+import { Routes } from 'react-router-dom'
 
 import {BrowserRouter as Router, Route } from 'react-router-dom'
 
