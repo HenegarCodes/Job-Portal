@@ -19,8 +19,6 @@ The Job Portal project aims to create a web application where employers can post
 4. **User Profiles**
    - Users can create and manage profiles with personal information, skills, resume upload.
 
-5. **Notifications**
-   - Implement email notifications for users on application status updates and new job postings.
 
 6. **Admin Dashboard**
    - Admins can manage users, job listings, applications, and site settings.

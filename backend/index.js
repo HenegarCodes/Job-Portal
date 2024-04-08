@@ -15,7 +15,8 @@ app.use(express.json()); // Parse incoming JSON requests
 app.use(cors()); // Enable Cross-Origin Resource Sharing
 
 // Connect to MongoDB database
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect(process.env.MONGODB_URI || "mongodb+srv://henegarcodes:Leishy415@cluster0.zkkehjq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
